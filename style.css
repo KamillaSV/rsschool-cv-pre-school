@@ -30,7 +30,7 @@ body {
   float: right;
 }
 .round:hover {
-  transform: scale(1.5); 
+  transform: scale(1.2); 
 }
 
 .container {
@@ -40,6 +40,7 @@ body {
 }
 .nav-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
